@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UQU NewVote</string>
+    <string name="app_url">https://uq.newvote.org</string>
+    <string name="app_host">uq.newvote.org</string>
+    <string name="asset_statements">
+        [{
+            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+            \"target\": {
+                \"namespace\": \"android_app\",
+                \"site\": \"https://uq.newvote.org\"}
+        }]
+    </string>
+
+</resources>
