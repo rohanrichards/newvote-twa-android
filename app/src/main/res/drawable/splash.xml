@@ -9,6 +9,6 @@
     <item android:gravity="center">
         <bitmap
             android:gravity="center"
-            android:src="@mipmap/ic_launcher_background" />
+            android:src="@drawable/ic_app_icon" />
     </item>
 </layer-list>

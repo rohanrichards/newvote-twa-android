@@ -24,9 +24,9 @@
                 android:value="@string/app_url" />
 
             <!-- trying to add a splash screen -->
-            <meta-data
-                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
-                android:resource="@drawable/splash" />
+            <!--<meta-data-->
+                <!--android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"-->
+                <!--android:resource="@drawable/splash" />-->
 
             <!-- This intent-filter adds the TWA to the Android Launcher -->
             <intent-filter>
@@ -47,6 +47,12 @@
                 <data
                     android:scheme="https"
                     android:host="@string/app_host"/>
+                <data
+                    android:scheme="https"
+                    android:host="b-alternative.newvote.org"/>
+                <data
+                    android:scheme="https"
+                    android:host="climatefdn.newvote.org/home"/>
             </intent-filter>
         </activity>
 
